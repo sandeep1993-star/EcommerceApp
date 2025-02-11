@@ -31,14 +31,15 @@ const Footer = () => {
         <div className="footer__container">
           <div className="footer_left">
             <div className="footer_logo_container">
-              <img src={logo} alt="" Z />
+              {/* <img src={logo} alt="" Z /> */}
+              <img style={{height:50}} src="https://i.pinimg.com/236x/79/eb/01/79eb012ee88b9be35ef7d804dd1f8ebc.jpg" alt="Logo" />
             </div>
 
-            <p>1418 River Drive, Suite 35 Cottonhall, CA 9622 United States</p>
+            <p>1418 , Dwarka , New Delhi </p>
 
             <div className="footer_address">
-              <strong> sale@uomo.com </strong>
-              <strong> +1 246-345-0695 </strong>
+              <strong> sale@sandeepshoppingkart.com </strong>
+              <strong> +191 999-999-9999 </strong>
             </div>
 
             <div className="social_links">
@@ -139,16 +140,16 @@ const Footer = () => {
         </div>
         <div className="footer_bottom">
           <p>
-            © {getCurrentYear()} Uomo. All Rights Reserved | Made By{" "}
+            © {getCurrentYear()}Sandeep Shoppoing Kart. All Rights Reserved | Made By{" "}
             <a
-              href="https://github.com/shakti177"
+              href="https://github.com/sandeep1993-star"
               target="_blank"
               rel="noreferrer"
               style={{ color: "#C22928", textDecoration: "none" }}
             >
-              Shakti Tamrakar
+              Sandeep Prasad
             </a>{" "}
-            with ❤️
+            {/* with ❤️ */}
           </p>
           <div className="footerLangCurrency">
             <div className="footerLang">

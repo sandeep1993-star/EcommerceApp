@@ -47,7 +47,8 @@ const Navbar = () => {
         <div className="logoLinkContainer">
           <div className="logoContainer">
             <Link to="/" onClick={scrollToTop}>
-              <img src={logo} alt="Logo" />
+            
+              <img style={{height:50}} src="https://i.pinimg.com/236x/79/eb/01/79eb012ee88b9be35ef7d804dd1f8ebc.jpg" alt="Logo" />
             </Link>
           </div>
           <div className="linkContainer">
@@ -112,7 +113,8 @@ const Navbar = () => {
           )}
           <div className="logoContainer">
             <Link to="/">
-              <img src={logo} alt="Logo" />
+              {/* <img src={logo} alt="Logo" /> */}
+              <img style={{height:70}} src="https://i.pinimg.com/236x/79/eb/01/79eb012ee88b9be35ef7d804dd1f8ebc.jpg" alt="Logo" />
             </Link>
           </div>
           <Link to="/cart">
